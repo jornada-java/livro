@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.jornadajava</groupId>
-        <artifactId>Parte 04 - Orientacao a objetos em Java</artifactId>
+        <artifactId>parte-04-orientacao-objetos</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
