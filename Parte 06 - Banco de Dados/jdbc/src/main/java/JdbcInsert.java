@@ -20,20 +20,20 @@ public class JdbcInsert {
 
             String user = "root";
             String password = "root";
-            String database = "foo_db";
+            String database = "jornada_java_db";
 
             String urlConn = String.format(
                     "jdbc:mysql://localhost:3306/%s?useSSL=false&user=%s&password=%s", database, user, password);
 
             // Obtém-se o objeto gerenciador de conexão, informando uma URL com
-            // o nome do banco de dados “foo_db” bem como usuario e senha do SGBD
+            // o nome do banco de dados “jornada_java_db” bem como usuario e senha do SGBD
             conn = DriverManager.getConnection(urlConn);
 
             // Obtém-se o objeto gerenciador de consultas SQL
             stmt = conn.createStatement();
 
             // Declara-se uma String com o comando SQL a ser executado
-            String sql = "INSERT INTO foo (foo_name) VALUES ('Foo Name')";
+            String sql = "INSERT INTO pessoa (nome) VALUES ('Fulano')";
 
             // Executa-se o comando SQL declarado anteriormente
             stmt.executeUpdate(sql);
