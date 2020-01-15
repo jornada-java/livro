@@ -26,6 +26,7 @@ hs_err_pid*
 /Parte 03 - Java Basico/primeiro-programa/target/
 /Parte 04 - Orientacao a objetos em Java/topicos-avancados/interface/target/
 /Parte 04 - Orientacao a objetos em Java/ciclo-de-vida-de-um-objeto/01-exemplo/target/
+/Parte 09 - Testes/case 01-testcontainers/target/
 /.idea/
 
 
@@ -35,6 +36,7 @@ hs_err_pid*
 ### INTELLIJ IDEA ###
 .idea/
 *.iml
+
 
 
 ### Eclipse IDE ###
