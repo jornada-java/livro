@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Parte 03 - Java Basico/O primeiro programa em Java"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/01exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/02-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/03-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/04-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/05-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/06-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/07-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/08-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/09-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/10-exemplo"/>
+	<classpathentry kind="src" path="Parte 04 - Orientação a objetos em Java/11-exemplo copy"/>
+	<classpathentry kind="src" path="Parte VI - Banco de Dados/JDBC"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
