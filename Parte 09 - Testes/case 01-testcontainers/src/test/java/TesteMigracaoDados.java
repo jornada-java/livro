@@ -28,22 +28,14 @@ public class TesteMigracaoDados {
     }
 
     public void verificaTabelaMigracao(MySQLContainer mysql) {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            fail();
-        }
-
         try (Connection conn = DriverManager.getConnection(mysql.getJdbcUrl()
                 , mysql.getUsername(), mysql.getPassword());
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery("SELECT * FROM USUARIO")) {
-            rs.next();
-
-            assertEquals(rs.getString("NOME"), "SANDRO");
-
+            rs.next(); //Precisamos mover o ponteiro para o primeiro registro
+            assertEquals(rs.getString("NOME"), "ADMIN");
         } catch (SQLException ex) {
-            fail();
+            fail(); // houve algum erro. Avise o Junit que o teste falhou
         }
     }
 
