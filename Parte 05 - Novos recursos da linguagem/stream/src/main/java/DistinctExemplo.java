@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class DistictExemplo {
+public class DistinctExemplo {
 
 	public static void main(String[] args) {
 		List<Integer> figurinhas = List.of(1, 2, 3, 2, 3);
