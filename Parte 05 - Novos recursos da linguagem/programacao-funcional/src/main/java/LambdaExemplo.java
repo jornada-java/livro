@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.function.Consumer;
 
-public class LambdaExemplos {
+public class LambdaExemplo {
 
 	public static void main(String[] args) {
 

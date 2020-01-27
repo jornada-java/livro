@@ -16,5 +16,6 @@
 
     <modules>
         <module>programacao-funcional</module>
+        <module>stream</module>
     </modules>
 </project>
