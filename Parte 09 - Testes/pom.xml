@@ -18,6 +18,7 @@
         <module>testcontainers</module>
         <module>case 01-testcontainers</module>
         <module>case 02-testcontainers</module>
+        <module>case 03-testcontainers</module>
     </modules>
 
     <dependencies>

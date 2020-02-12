@@ -1,13 +1,12 @@
-package com.jornadajava.testcontainers;
+package com.jornada.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Case02 {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Case02.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
-
 }
