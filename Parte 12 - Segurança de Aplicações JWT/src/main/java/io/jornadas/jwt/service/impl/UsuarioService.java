@@ -17,12 +17,12 @@ public class UsuarioService implements IUsuarioService {
 
 	@Override
 	public Usuario buscarUsuarioPorLogin(LoginDTO dto) {
-		return this.usuarioRepository.findByLoginAndSenha(dto.getLogin(), dto.getSenha());
+		return this.usuarioRepository.procurarPorLoginESenha(dto.getLogin(), dto.getSenha());
 	}
 
 	@Override
 	public Usuario buscarPorToken(String token) {
-		return this.usuarioRepository.findById(JWTUtil.getId(token));
+		return this.usuarioRepository.procuparPorId(JWTUtil.recuperaIdUsuario(token));
 	}
 
 }

@@ -21,13 +21,13 @@ public class JWTUtil {
 	 * @param usuario com dados do usuário
 	 * @return Retorna string com o token
 	 */
-	public static String generateToken(Usuario usuario) {
+	public static String gerarToken(Usuario usuario) {
 		try {
 			// Chave secreta
 			final Algorithm algorithm = Algorithm.HMAC256("secret");
 			final Builder builder = JWT.create();
 
-			// Data atual + 30min
+			// Tempo de vida: data atual + 30min
 			final Date tempo = new Date(System.currentTimeMillis() + 1800000);
 			builder.withExpiresAt(tempo);
 
@@ -48,7 +48,6 @@ public class JWTUtil {
 	 * 
 	 * @param token a ser validado
 	 * @return Retorna true se o token foi valido e false se var invalido
-	 * @throws UnauthorizedException
 	 */
 	public static boolean verificaToken(String token) {
 		try {
@@ -71,30 +70,8 @@ public class JWTUtil {
 	 * @param token String do token
 	 * @return Retorna o ID do usuario logado
 	 */
-	public static Long getId(String token) {
+	public static Long recuperaIdUsuario(String token) {
 		DecodedJWT decode = JWT.decode(token);
 		return Long.parseLong(decode.getSubject());
-	}
-
-	public static String a(Usuario usuario) {
-		try {
-			// Chave secreta
-			final Algorithm algorithm = Algorithm.HMAC256("secret");
-			final Builder builder = JWT.create();
-
-			// Tempo de vida: data atual + 30min
-			final Date tempo = new Date(System.currentTimeMillis() + 3600000);
-			builder.withExpiresAt(tempo);
-
-			// Payload
-			builder.withSubject(usuario.getId().toString());
-			builder.withIssuer("https://www.jornadas.io");
-			builder.withClaim("name", usuario.getNome());
-			builder.withClaim("login", usuario.getLogin());
-			builder.withClaim("admin", true);
-			return builder.sign(algorithm);
-		} catch (JWTCreationException exception) {
-			return "Erro ao gerar o token";
-		}
 	}
 }

@@ -21,7 +21,7 @@ public class LoginService implements ILoginService {
 	public JWTToken login(LoginDTO dto) throws NotFoundException {
 		if (dto.getLogin().equals("jornada.colaborativa") && dto.getSenha().equals("123456")) {
 			Usuario usuario = this.usuarioService.buscarUsuarioPorLogin(dto);
-			return new JWTToken(JWTUtil.generateToken(usuario));
+			return new JWTToken(JWTUtil.gerarToken(usuario));
 		}
 		throw new NotFoundException("Login ou senha não encontrado");
 	}

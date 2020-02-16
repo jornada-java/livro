@@ -9,10 +9,10 @@ import io.jornadas.jwt.model.Usuario;
 @Component
 public interface IUsuarioRepository {
 
-	Usuario findByLoginAndSenha(String login, String senha);
+	Usuario procurarPorLoginESenha(String login, String senha);
 
-	List<Usuario> findAll();
+	List<Usuario> buscarTodos();
 
-	Usuario findById(Long id);
+	Usuario procuparPorId(Long id);
 
 }

@@ -13,12 +13,12 @@ import io.jornadas.jwt.repository.IUsuarioRepository;
 public class UsuarioRepository implements IUsuarioRepository {
 
 	@Override
-	public Usuario findByLoginAndSenha(String login, String senha) {
+	public Usuario procurarPorLoginESenha(String login, String senha) {
 		return new Usuario(1l, "Jornada Colaborativa", "jornada.colaborativa", "contato@jornadas.io");
 	}
 
 	@Override
-	public List<Usuario> findAll() {
+	public List<Usuario> buscarTodos() {
 		List<Usuario> usuarios = new ArrayList<Usuario>();
 		usuarios.add(new Usuario(1l, "Jornada Colaborativa", "jornada.colaborativa", "contato@jornadas.io"));
 		usuarios.add(new Usuario(2l, "Bruno Kaufmann", "bruno.kaufmann", "bruno.kaufmann@jornadas.io"));
@@ -27,8 +27,8 @@ public class UsuarioRepository implements IUsuarioRepository {
 	}
 
 	@Override
-	public Usuario findById(Long id) {
-		return this.findAll().stream().filter(usuario -> usuario.getId().equals(id)).collect(Collectors.toList())
+	public Usuario procuparPorId(Long id) {
+		return this.buscarTodos().stream().filter(usuario -> usuario.getId().equals(id)).collect(Collectors.toList())
 				.get(0);
 	}
 
