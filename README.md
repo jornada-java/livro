@@ -4,7 +4,7 @@ Este repositório contem todos os exemplos de código demonstrados no livro Jorn
 
 ## Requisitos
 
-* Java 11 ou superior. Em alguns exemplos será necessário o Java 13
+* Java 11 ou superior. Em alguns exemplos será necessário o Java 14
 * Maven 3.5.4 ou superior
 * Docker 19.03.5 ou superior
 
