@@ -16,11 +16,11 @@
     </properties>
 
     <modules>
-        <module>Parte 03 - Java Basico</module>
-        <module>Parte 04 - Orientacao a objetos em Java</module>
-        <module>Parte 05 - Novos recursos da linguagem</module>
-        <module>Parte 06 - Banco de Dados</module>
-        <module>Parte 09 - Testes</module>
+        <module>parte-03</module>
+        <module>parte-04</module>
+        <module>parte-05</module>
+        <module>parte-06</module>
+        <module>parte-09</module>
     </modules>
     <build>
         <pluginManagement>
