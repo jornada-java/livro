@@ -65,5 +65,20 @@ Dependendo da IDE que está utilizando, basta ir em cada classe Main do projeto 
   * [JVM Debugger Memory View for IntelliJ](https://plugins.jetbrains.com/plugin/8537-jvm-debugger-memory-view)   
     *Analisador de memória para a IDE IntelliJ*
 
-## Colaboração
-Para colaborar com este repositório, basta fazer um fork, incluir ou alterar os exemplos dentro do capítulo que esta escrevendo e submeter um pull request.
+
+
+
+# Autores
+
+* Antônio Muniz
+[[Linkedin 1]](https://www.linkedin.com/in/muniz-antonio1/)
+[[Linkedin 2]](https://www.linkedin.com/in/muniz-antonio2/)
+[[Contato]](munizprofessor@gmail.com)
+
+
+# Colaboradores
+
+* Sandro Luciano Giacomozzi
+[[Linkedin]](https://www.linkedin.com/in/sandrogiacomozzi/)
+[[About.me]](https://about.me/sandrogiacom)
+[[Site]](https://www.guiadojava.com.br/)

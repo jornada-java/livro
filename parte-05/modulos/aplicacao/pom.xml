@@ -6,17 +6,20 @@
 
     <parent>
         <groupId>com.jornadajava</groupId>
-        <artifactId>exemplos</artifactId>
+        <artifactId>modulos</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>parte-05-novos-recursos-da-linguagem</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>aplicacao</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>programacao-funcional</module>
-        <module>stream</module>
-        <module>modulos</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.jornadajava</groupId>
+            <artifactId>apptelefone</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    
 </project>
