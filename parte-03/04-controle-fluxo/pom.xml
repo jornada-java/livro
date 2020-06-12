@@ -6,20 +6,13 @@
 
     <parent>
         <groupId>com.jornadajava</groupId>
-        <artifactId>exemplos</artifactId>
+        <artifactId>parte-03-java-basico</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>parte-03-java-basico</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>04-controle-fluxo</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>01-primeiro-programa</module>
-        <module>02-variaveis</module>
-        <module>03-operadores</module>
-        <module>04-controle-fluxo</module>
-        <module>06-arrays</module>
-    </modules>
     
 </project>

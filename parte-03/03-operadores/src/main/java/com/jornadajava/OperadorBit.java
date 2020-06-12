@@ -30,6 +30,9 @@ public class OperadorBit {
         System.out.println(true || ++valor1 > 0);
         System.out.println(valor1);
 
+        // Operador OR bit a bit
+        // A segunda parte será validada pois mesmo que a primeira seja true
+        // O valor1 será incrementado
         System.out.println(true | ++valor1 > 0);
         System.out.println(valor1);
 
