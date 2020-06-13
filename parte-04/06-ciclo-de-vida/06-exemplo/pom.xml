@@ -6,22 +6,13 @@
 
     <parent>
         <groupId>com.jornadajava</groupId>
-        <artifactId>exemplos</artifactId>
+        <artifactId>ciclo-de-vida-de-um-objeto</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>parte-04-orientacao-objetos</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>06-exemplo</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>01-classe</module>
-        <module>02-modificadores-acesso</module>
-        <module>03-heranca</module>
-        <module>04-polimorfismo</module>
-        <module>05-abstracao</module>
-        <module>06-ciclo-de-vida</module>
-        <module>topicos-avancados</module>
-    </modules>
-
+    
 </project>
