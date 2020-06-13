@@ -1,6 +1,6 @@
 public class AmpliandoeReduzindoConversoesPrimitivas {
 
-    byte meuByteMaisLargo = (byte) 130;   // 0b10000010 -126, 130 é a representação binária para 126
+    byte meuByteMaisLargo = (byte) 130;// 0b10000010 -126, 130 é a representação binária para 126
     // o que difere é a forma que o bit de sinal é interpretado
 
     char meuCharMaisLargo = (char) meuByteMaisLargo;

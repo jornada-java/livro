@@ -6,15 +6,17 @@
 
     <parent>
         <groupId>com.jornadajava</groupId>
-        <artifactId>parte-04-orientacao-objetos</artifactId>
+        <artifactId>topicos-avancados</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>topicos-avancados</artifactId>
+    <artifactId>02-typecasting</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>interface</module>
+        <module>primitivo</module>
+        <module>referencia</module>
     </modules>
 </project>
