@@ -15,8 +15,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>programacao-funcional</module>
-        <module>stream</module>
+        <module>01-programacao-funcional</module>
+        <module>02-stream</module>
         <module>modulos</module>
     </modules>
 </project>
