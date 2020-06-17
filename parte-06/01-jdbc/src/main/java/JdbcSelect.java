@@ -11,8 +11,8 @@ public class JdbcSelect {
         // Declara-se o Driver específico do banco de dados em uso (MySQL)
             Class.forName("com.mysql.jdbc.Driver");
 
-        String user = "root";
-        String password = "root";
+        String user = "java";
+        String password = "1234";
         String database = "jornada_java_db";
 
         String urlConn = String.format(

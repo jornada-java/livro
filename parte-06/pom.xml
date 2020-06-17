@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>jdbc</module>
+        <module>01-jdbc</module>
     </modules>
 
     
