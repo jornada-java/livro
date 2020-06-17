@@ -23,6 +23,7 @@
         <module>06-ciclo-de-vida</module>
         <module>07-estrutura-dados</module>
         <module>08-topicos-avancados</module>
+        <module>09-exceptions</module>
     </modules>
 
 </project>
