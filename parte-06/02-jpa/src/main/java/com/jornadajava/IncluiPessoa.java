@@ -11,12 +11,13 @@ public class IncluiPessoa {
         pessoa.setIdade(24);
         pessoa.setNome("Fulano Pessoa");
 
-        EntityManagerFactory factory = Persistence.createEntityManagerFactory(null);
+        EntityManagerFactory factory = Persistence.createEntityManagerFactory("jornada");
         EntityManager manager = factory.createEntityManager();
 
         manager.getTransaction().begin(); // Inicia uma transação com o Banco de dados
 
         manager.persist(pessoa); // Cria o registro no banco de dados
+        System.out.println("Pessoa incluida!");
 
         pessoa.setNome("Nome da Pessoa Alterado");
 
@@ -25,7 +26,7 @@ public class IncluiPessoa {
         // Abaixo o registro de Pessoa é carregado do banco de dados a partir
         // do valor de sua chave primária
         Pessoa pessoaEncontrada = manager.find(Pessoa.class, "333.222.000-24");
-        System.out.println(pessoaEncontrada.getNome());
+        System.out.println("pessoaEncontrada = " + pessoaEncontrada.getNome());
 
         manager.remove(pessoa); // Exclui o registro do banco de dados
 
