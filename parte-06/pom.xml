@@ -18,6 +18,7 @@
         <module>01-jdbc</module>
         <module>02-jpa</module>
         <module>03-hibernate</module>
+        <module>04-jnosql</module>
     </modules>
 
     
