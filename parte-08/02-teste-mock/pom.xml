@@ -11,7 +11,14 @@
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>testcontainers</artifactId>
+    <artifactId>02-teste-mock</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>3.3.3</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>

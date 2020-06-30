@@ -11,12 +11,11 @@
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>parte-07</artifactId>
+    <artifactId>parte-07-topicos-avancados</artifactId>
     <packaging>pom</packaging>
 
     <modules>
         <module>01-multitasking</module>
     </modules>
 
-    
 </project>

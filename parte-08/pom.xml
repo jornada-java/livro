@@ -16,16 +16,18 @@
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>testes</artifactId>
+    <artifactId>parte-08-testes</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>testcontainers</module>
-        <module>case 01-testcontainers</module>
-        <module>case 02-testcontainers</module>
-        <module>case 03-testcontainers</module>
-        <module>teste-unidade</module>
-        <module>teste-mock</module>
+        <module>01-teste-unidade</module>
+        <module>02-teste-mock</module>
+        <module>03-testes-api</module>
+        <module>04-cobertura</module>
+        <module>05-mutacao</module>
+        <module>case-01-testcontainers</module>
+        <module>case-02-testcontainers</module>
+        <module>case-03-testcontainers</module>
     </modules>
 
     <dependencies>

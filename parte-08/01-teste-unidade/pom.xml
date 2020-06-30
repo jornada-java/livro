@@ -11,8 +11,6 @@
     </parent>
 
     <groupId>com.jornadajava</groupId>
-    <artifactId>teste-unidade</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>01-teste-unidade</artifactId>
 
-    
 </project>

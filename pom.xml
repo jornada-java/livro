@@ -20,7 +20,7 @@
         <module>parte-05</module>
         <module>parte-06</module>
         <module>parte-07</module>
-        <module>parte-09</module>
+        <module>parte-08</module>
     </modules>
     <build>
         <pluginManagement>
