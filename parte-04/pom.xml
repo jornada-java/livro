@@ -20,10 +20,11 @@
         <module>03-heranca</module>
         <module>04-polimorfismo</module>
         <module>05-abstracao</module>
-        <module>06-ciclo-de-vida</module>
-        <module>07-estrutura-dados</module>
-        <module>08-topicos-avancados</module>
-        <module>09-exceptions</module>
+        <module>06-elementos-estaticos</module>
+        <module>07-ciclo-de-vida</module>
+        <module>08-estrutura-dados</module>
+        <module>09-topicos-avancados</module>
+        <module>10-exceptions</module>
     </modules>
 
 </project>
