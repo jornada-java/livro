@@ -25,6 +25,7 @@
         <module>03-testes-api</module>
         <module>04-cobertura</module>
         <module>05-mutacao</module>
+        <module>06-selenium</module>
         <module>case-01-testcontainers</module>
         <module>case-02-testcontainers</module>
         <module>case-03-testcontainers</module>
