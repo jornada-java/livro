@@ -1,3 +1,5 @@
+package threads;
+
 public class Thread_sleep {
 
     public void run() {

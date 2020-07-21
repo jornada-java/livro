@@ -1,3 +1,5 @@
+package threads;
+
 public class Thread_join extends Thread{
 
     public static void main(String[] args) {
