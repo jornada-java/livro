@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.jornadajava</groupId>
-        <artifactId>parte-07</artifactId>
+        <artifactId>parte-07-topicos-avancados</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
