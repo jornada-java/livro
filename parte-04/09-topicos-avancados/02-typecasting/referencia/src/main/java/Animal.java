@@ -1,7 +1,7 @@
 public class Animal {
- 
+
     public void seAlimentar() {
-        // restante da classe
+        System.out.println("Animal se alimentando...");
     }
 }
 
