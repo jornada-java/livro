@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>01-multitasking</module>
+        <module>01-multithreading</module>
     </modules>
 
 </project>
