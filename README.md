@@ -23,6 +23,9 @@ Para compilar os projetos, basta ir ao diretório raiz e executar `mvn clean ins
 Dependendo da IDE que está utilizando, basta ir em cada classe Main do projeto ou classe de Teste e executar. Alguns
  exemplos possuem dependências externas tais como banco de dados. Neste caso será explicado como inicializar estas dependências.
 
+## Instalando as ferramentas
+
+* Java 14 Windows (https://youtu.be/EAOms5JkfT8)
 
    
 ## Parte XIII. Cloud e Deploy
