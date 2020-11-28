@@ -76,6 +76,9 @@ Dependendo da IDE que está utilizando, basta ir em cada classe Main do projeto 
 [[Site]](https://www.guiadojava.com.br/)
 * Tatiana Escovedo
 
+![Imagem dos autores no evento Jornada Java em 2020](./imagens/autores-evento-2020.png)
+_Autores no evento Jornada Java em 2020_
+
 # Colaboradores
 
 * Alisson Medeiros
