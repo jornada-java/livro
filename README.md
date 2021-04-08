@@ -64,7 +64,9 @@ Dependendo da IDE que está utilizando, basta ir em cada classe Main do projeto 
 [[Linkedin 2]](https://www.linkedin.com/in/muniz-antonio2/)
 [[Contato]](munizprofessor@gmail.com)
 * Bruno Kaufmann
+[[Linkedin]](https://www.linkedin.com/in/bruno-kaufmann/)
 * Rinaldo Pitzer Júnior
+[[Linkedin]](https://www.linkedin.com/in/rinaldodev/)
 * Rodrigo Moutinho
 [[Linkedin]](https://www.linkedin.com/in/rcmoutinho/)
 [[Twitter]](https://twitter.com/rcmoutinho)
@@ -75,6 +77,7 @@ Dependendo da IDE que está utilizando, basta ir em cada classe Main do projeto 
 [[About.me]](https://about.me/sandrogiacom)
 [[Site]](https://www.guiadojava.com.br/)
 * Tatiana Escovedo
+[[Linkedin]](https://www.linkedin.com/in/tatiana-escovedo/)
 
 ![Imagem dos autores no evento Jornada Java em 2020](./imagens/autores-evento-2020.png)
 _Autores no evento Jornada Java em 2020_
@@ -82,29 +85,56 @@ _Autores no evento Jornada Java em 2020_
 # Colaboradores
 
 * Alisson Medeiros
+[[Linkedin]](https://www.linkedin.com/in/alisson-medeiros-8bb67830/)
 * Allan Rodrigo Leite
+[[Linkedin]](https://www.linkedin.com/in/allan-rodrigo-leite-67b34252/)
 * André Felipe Joriatti
-* Barbara Cabral
+[[Linkedin]](https://www.linkedin.com/in/joriatti)
+* Bárbara Cabral da Conceição
+[[Linkedin]](https://www.linkedin.com/in/barbaracabral/)
 * Bruno Souza
+[[Linkedin]](https://www.linkedin.com/in/brjavaman/)
+* Diego de Medeiros Rocha
+[[Linkedin]](https://www.linkedin.com/in/diego-rocha/)
 * Dorival Querino
-* Fábio Braga
+[[Linkedin]](https://www.linkedin.com/in/dorivalq/)
+* Edson Yanaga
+[[Linkedin]](https://www.linkedin.com/in/yanaga/)
 * Eduardo Costa
+[[Linkedin]](https://www.linkedin.com/in/educostadev/)
+* Fábio Braga
+[[Linkedin]](https://www.linkedin.com/in/fabio-braga-85080624/)
 * Gabriela Moraes
+[[Linkedin]](https://www.linkedin.com/in/gabrielaomoraes/)
 * Jonas Santos
+[[Linkedin]](https://www.linkedin.com/in/jonasvsantos/)
 * Kamila Santos
+[[Linkedin]](https://www.linkedin.com/in/kamila-santos-oliveira/)
 * Leonardo de Moura Rocha Lima
+[[Linkedin]](https://www.linkedin.com/in/leomrlima/)
 * Luca Fenris Elert
+[[Linkedin]](https://www.linkedin.com/in/lucaElert/)
 * Marcelo Henrique Diniz de Araujo
+[[Linkedin]](https://www.linkedin.com/in/marcelo-hda/)
 * Marcos Paulo
-* Otávio Santana
-* Rafael Buzzi
-* Raphael Vitorino
+[[Linkedin]](https://www.linkedin.com/in/marcospds/)
+* Otavio Santana
+[[Linkedin]](https://www.linkedin.com/in/otaviojava/)
+* Rafael Buzzi de Andrade
+[[Linkedin]](https://www.linkedin.com/in/rafaelbuzzi/)
+* Raphael Vitorino da Silva
+[[Linkedin]](https://www.linkedin.com/in/raphael-vitorino-da-silva-12910781/)
 * Rhuan Henrique
+[[Linkedin]](https://www.linkedin.com/in/rhuan-rocha-96505870/)
 * Roan Brasil Monteiro
 [[Linkedin]](https://www.linkedin.com/in/roanbrasil/)
 [[Twitter]](https://twitter.com/roanbrasil)
 [[GitHub]](http://github.com/roanbrasil)
 * Rodrigo Sobral
+[[Linkedin]](https://www.linkedin.com/in/rodrigo-sobral-64092886/)
 * Silvio Buss
+[[Linkedin]](https://www.linkedin.com/in/silviobuss/)
 * Vitor Vieira
+[[Linkedin]](https://www.linkedin.com/in/vitor-araujo-3678b498/)
 * Zair Ramos
+[[Linkedin]](https://www.linkedin.com/in/ZairRamos)
